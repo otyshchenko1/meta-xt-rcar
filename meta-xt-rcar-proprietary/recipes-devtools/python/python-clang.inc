@@ -16,5 +16,5 @@ SRC_URI[sha256sum] = "485985daf0a301e01b924db49ecb3e8b05ea40d6ab404f1778b8bfd5e4
 inherit pypi native
 
 PYPI_PACKAGE = "clang-5"
-RDEPENDS_${PN} = "python-native"
+RDEPENDS:${PN} = "python-native"
 BBCLASSEXTEND = "native"
